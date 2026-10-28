@@ -1,0 +1,23 @@
+# Contextual Code Review Assistant - Python dependencies
+# Core deep learning framework
+torch>=2.0.0
+
+# Hugging Face Transformers for LLM access
+transformers>=4.35.0
+
+# Sentence Transformers for embedding generation
+sentence-transformers>=2.2.2
+
+# FAISS for efficient similarity search (CPU version)
+faiss-cpu>=1.7.4
+
+# Click for building the CLI interface
+click>=8.1.7
+
+# Utility libraries (commonly used throughout the project)
+numpy>=1.24.0
+tqdm>=4.66.0
+
+# Optional: for data handling and configuration
+pandas>=2.1.0
+pyyaml>=6.0.1
